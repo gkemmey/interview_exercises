@@ -1,0 +1,12 @@
+/* 
+  we purposefully remove the 'require_tree .' and 'require_self' statements here in favor
+  of scss import directives
+*/
+
+/* "bootstrap-sprockets" must be imported before "bootstrap" and "bootstrap/variables" */
+@import "bootstrap-sprockets";
+@import "bootstrap";
+@import "font-awesome-sprockets";
+@import "font-awesome";
+
+@import "custom";
